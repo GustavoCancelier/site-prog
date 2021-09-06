@@ -53,7 +53,6 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
-    position: relative;
     align-items: center;
 }
 
@@ -124,3 +123,31 @@ button {
     margin-top: 20px;
 }
 
+.input-pwd {
+    position: relative;
+}
+
+.show-password{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 35px;
+}
+
+.eye{
+    background-image: url("/assets/olhoaberto.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 24px;
+    width: 24px;
+
+} 
+
+ .eye-closed{
+    background-image: url("/assets//olho.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 24px;
+    width: 24px;
+
+}
