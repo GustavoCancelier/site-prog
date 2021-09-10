@@ -27,6 +27,7 @@ img {
     width: 900px;
     height: 450px;
     background-color: white;
+    border-radius: 15px;
 }
 
 .main-logo {
