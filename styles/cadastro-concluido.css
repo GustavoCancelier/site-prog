@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9900;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background: white;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#principal {
+    position: relative;
+    left: -15px;
+}
