@@ -4,11 +4,26 @@ body {
     padding: 0;
     
 }
+
+h2 {
+    position: relative;
+    align-self: center;
+    font-family: "Nunito";
+    font-size: 30px;
+}
+
+p {
+    font-family: "Nunito";
+    text-align: center;
+    font-size: 24px;
+}
+
 img {
     background-repeat: no-repeat;
 }
 .container {
     display: flex;
+    flex-direction: column;
     height: 98vh;
     width: 98vw;
     background-color: #FF9900;
@@ -17,9 +32,8 @@ img {
 .content {
     display: flex;
     margin: auto;
-    width: 1366x;
+    width: 1366;
     height: 450px;
-    /* background-color: white; */
 }
 
 .left-side {
@@ -64,7 +78,7 @@ a {
 }
 
 .h1-right {
-    margin-left: -100px;
+    margin-left: -115px;
     font-family: "Nunito";
 }
 
